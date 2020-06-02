@@ -36,6 +36,6 @@ class Dictionary(ABC):
     @abstractmethod
     def values(self): pass
 
-    # Returns a List of lists, with all the key value pairs in the dictionary.
+    # Returns a List of items, with all the key value pairs in the dictionary.
     @abstractmethod
     def items(self): pass
